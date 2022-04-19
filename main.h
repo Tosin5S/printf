@@ -40,5 +40,6 @@ int print_rot(va_list arguments, char *buf, unsigned int ibuf);
 int print_add(va_list arguments, char *buf, unsigned int ibuf);
 int prinloct(va_list arguments, char *buf, unsigned int ibuf);
 int prinlhex(va_list arguments, char *buf, unsigned int ibuf);
+int prinlint(va_list arguments, char *buf, unsigned int ibuf);
 
 #endif
