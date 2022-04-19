@@ -55,5 +55,6 @@ int prinpint(va_list arguments, char *buf, unsigned int ibuf);
 int prinsint(va_list arguments, char *buf, unsigned int ibuf);
 char *fill_hex_array(char *bnr, char *hex, int isupp, int limit);
 char *fill_long_oct_array(char *bnr, char *oct);
+char *fill_oct_array(char *bnr, char *oct);
 
 #endif
