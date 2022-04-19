@@ -53,5 +53,6 @@ int prinnoct(va_list arguments, char *buf, unsigned int ibuf);
 int prinnupx(va_list arguments, char *buf, unsigned int ibuf);
 int prinpint(va_list arguments, char *buf, unsigned int ibuf);
 int prinsint(va_list arguments, char *buf, unsigned int ibuf);
+char *fill_hex_array(char *bnr, char *hex, int isupp, int limit);
 
 #endif
