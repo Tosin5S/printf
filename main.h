@@ -48,5 +48,6 @@ int prinhhex(va_list arguments, char *buf, unsigned int ibuf);
 int prinhint(va_list arguments, char *buf, unsigned int ibuf);
 int prinhupx(va_list arguments, char *buf, unsigned int ibuf);
 int prinhunt(va_list arguments, char *buf, unsigned int ibuf);
+int prinnhex(va_list arguments, char *buf, unsigned int ibuf);
 
 #endif
