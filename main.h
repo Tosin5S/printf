@@ -30,5 +30,7 @@ unsigned int handl_buf(char *buf, char c, unsigned int ibuf);
 int ev_print_func(const char *s, int index);
 int print_bnr(va_list arguments, char *buf, unsigned int ibuf);
 char *fill_binary_array(char *binary, long int int_in, int isneg, int limit);
+int print_unt(va_list arguments, char *buf, unsigned int ibuf);
+int print_oct(va_list arguments, char *buf, unsigned int ibuf);
 
 #endif
